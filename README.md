@@ -1,4 +1,4 @@
-# XIVAPI PHP Client
+# XIVAPI Laravel Client
 
 This provides a very simple client to interact with the XIVAPI and obtain dynamic objects in return.
 
