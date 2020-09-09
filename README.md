@@ -6,26 +6,23 @@ This provides a very simple client to interact with the XIVAPI and obtain dynami
 
 This library requires PHP 7.2+
 
-Install vis composer: https://packagist.org/packages/xivapi/xivapi-php
+Install vis composer: https://packagist.org/packages/xivdata/xivapi-laravel
 
-- `composer require xivapi/xivapi-php`
+- `composer require xivdata/xivapi-laravel`
 
 ## Usage
 
-The `xivapi-php` library is a very simple wrapper around Guzzle.
+The `xivapi-laravel` package is a very simple libary to access XIVAPI.
 
 **Initialize**
 ```php
-$api = new \XIVAPI\XIVAPI();
+$api = new XIVAPI();
 ```
 
 **Setting your key if you have one**
 
 You can set the environment variable: `XIVAPI_KEY` Or via:
 
-```php
-$api->environment->key('my_api_key');
-```
 
 **Using Queries (excludes Search)**
 
