@@ -1,21 +1,20 @@
 {
-    "name": "xivapi/xivapi-php",
-    "type": "library",
-    "keywords": ["ffxiv", "php", "api", "sdk"],
-    "description": "A PHP SDK for xivapi.com",
-    "homepage": "https://github.com/xivapi/xivapi-php",
+    "name": "xivdata/xivapi-laravel",
+    "keywords": ["ffxiv", "php", "laravel", "api", "sdk"],
+    "description": "A Laravel SDK for xivapi.com",
+    "homepage": "https://github.com/XIVDATA/xivapi-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "Josh Freeman",
-            "email": "josh@viion.co.uk",
-            "homepage": "http://xivapi.com",
+            "name": "Syntafin",
+            "email": "mail@syntaf.in",
+            "homepage": "https://xivdata.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.2",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
@@ -24,5 +23,19 @@
         "psr-0": {
             "XIVAPI\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "XIVDATA\\XIVAPI\\XIVAPI"
+            ],
+            "aliases": {
+                "XIVAPI": "XIVDATA\\XIVAPI\\XIVAPI"
+            }
+        }
+    },
+    "minimum-stability": "stable"
 }

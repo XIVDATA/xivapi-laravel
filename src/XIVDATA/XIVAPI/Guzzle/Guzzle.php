@@ -4,7 +4,7 @@ namespace XIVAPI\Guzzle;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
-use XIVAPI\Common\Environment;
+use XIVDATA\XIVAPI\Common\Environment;
 
 class Guzzle
 {
@@ -27,8 +27,8 @@ class Guzzle
     {
         self::$client = new Client([
             'base_uri'  => self::$environment,
-            'timeout'   => self::TIMEOUT,
-            'verify'    => self::VERIFY,
+            'timeout'   => config('xivapi.timeout'),
+            'verify'    => config('xivapi.verify'),
         ]);
     }
     

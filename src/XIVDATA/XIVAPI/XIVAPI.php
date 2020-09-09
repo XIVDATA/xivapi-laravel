@@ -3,19 +3,19 @@
 namespace XIVAPI;
 
 use GuzzleHttp\Psr7\Response;
-use XIVAPI\Api\Character;
-use XIVAPI\Api\FreeCompany;
-use XIVAPI\Api\Linkshell;
-use XIVAPI\Api\Lodestone;
-use XIVAPI\Api\Market;
-use XIVAPI\Api\PatchList;
-use XIVAPI\Api\PrivateApi;
-use XIVAPI\Api\PvPTeam;
-use XIVAPI\Api\Search;
-use XIVAPI\Api\Content;
-use XIVAPI\Api\Url;
-use XIVAPI\Common\Environment;
-use XIVAPI\Guzzle\Guzzle;
+use XIVDATA\XIVAPI\Api\Character;
+use XIVDATA\XIVAPI\Api\FreeCompany;
+use XIVDATA\XIVAPI\Api\Linkshell;
+use XIVDATA\XIVAPI\Api\Lodestone;
+use XIVDATA\XIVAPI\Api\Market;
+use XIVDATA\XIVAPI\Api\PatchList;
+use XIVDATA\XIVAPI\Api\PrivateApi;
+use XIVDATA\XIVAPI\Api\PvPTeam;
+use XIVDATA\XIVAPI\Api\Search;
+use XIVDATA\XIVAPI\Api\Content;
+use XIVDATA\XIVAPI\Api\Url;
+use XIVDATA\XIVAPI\Common\Environment;
+use XIVDATA\XIVAPI\Guzzle\Guzzle;
 
 class XIVAPI
 {

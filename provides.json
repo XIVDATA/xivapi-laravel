@@ -1,0 +1,10 @@
+{
+    "providers": [
+      "XIVDATA\\XIVAPI\\XIVAPI"
+    ],
+    "aliases": 
+    [{
+        "alias": "XIVAPI",
+        "facade": "XIVDATA\\XIVAPI\\XIVAPI"
+    }]
+}
