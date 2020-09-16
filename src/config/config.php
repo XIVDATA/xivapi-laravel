@@ -34,5 +34,5 @@ return [
     |
     */
 
-    'verify' => env('XIVDATA_VERIFY', false)
+    'verify' => env('XIVAPI_VERIFY', false)
 ];

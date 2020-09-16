@@ -4,7 +4,7 @@ namespace XIVAPI\Guzzle;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
-use XIVDATA\XIVAPI\Common\Environment;
+use XIVAPI\Common\Environment;
 
 class Guzzle
 {

@@ -4,7 +4,7 @@ This provides a very simple client to interact with the XIVAPI and obtain dynami
 
 ## Getting Started
 
-This library requires PHP 7.2+
+This library requires PHP 7.3+
 
 Install vis composer: https://packagist.org/packages/xivdata/xivapi-laravel
 
