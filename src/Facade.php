@@ -10,6 +10,7 @@ class Facade extends \Illuminate\Support\Facades\Facade
 {
     protected static function character(int $id, array $data = [], bool $extended = false)
     {
+        // TODO: Building Character Facade to Search and get a single Character
         $options = [
             RequestOptions::QUERY
         ];
