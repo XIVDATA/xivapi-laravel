@@ -1,6 +1,6 @@
 <?php
 
-namespace XIVAPI\Api;
+namespace XXIVAPI\Api;
 
 use XIVAPI\Guzzle\Guzzle;
 
