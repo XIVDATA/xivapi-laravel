@@ -1,10 +1,9 @@
-## Welcome to GitHub Pages
+# xivapi-laravel
 
-You can use the [editor on GitHub](https://github.com/XIVDATA/xivapi-laravel/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+This is a package to easily use the Final Fantasy XIV API provided by XIVAPI in Laravel.  
+We will provide a basic documentation and some examples of usage here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
