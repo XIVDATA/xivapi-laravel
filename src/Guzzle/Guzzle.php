@@ -25,7 +25,7 @@ class Guzzle
     private static function setClient()
     {
         self::$client = new Client([
-            'base_uri'  => self::$environment,
+            'base_uri'  => config('xivapi.base'),
             'timeout'   => config('xivapi.timeout'),
             'verify'    => config('xivapi.verify'),
         ]);
