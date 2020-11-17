@@ -7,7 +7,7 @@ namespace XIVAPI\Common;
  */
 class Environment
 {
-    const XIVAPI_KEY = 'XIVAPI_KEY';
+    const XIVAPI_KEY = config('xivapi.key');
 
     public function key(string $key):  Environment
     {

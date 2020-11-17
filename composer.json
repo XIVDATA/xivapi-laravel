@@ -32,7 +32,7 @@
                 "XIVAPI\\ServiceProvider"
             ],
             "aliases": {
-                "XIVAPI": "XIVAPI\\XIVAPI\\XIVAPI"
+                "XIVAPI": "XIVAPI\\XIVAPI"
             }
         }
     },

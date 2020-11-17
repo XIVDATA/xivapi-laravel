@@ -4,7 +4,6 @@ namespace XIVAPI\Guzzle;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
-use XIVAPI\Common\Environment;
 
 class Guzzle
 {
@@ -26,7 +25,7 @@ class Guzzle
     private static function setClient()
     {
         self::$client = new Client([
-            'base_uri'  => self::$environment,
+            'base_uri'  => config('xivapi.base'),
             'timeout'   => config('xivapi.timeout'),
             'verify'    => config('xivapi.verify'),
         ]);
@@ -42,7 +41,7 @@ class Guzzle
         self::setClient();
         
         // set XIVAPI key
-        if ($key = getenv(Environment::XIVAPI_KEY)) {
+        if ($key = config('xivapi.key')) {
             $options[RequestOptions::QUERY]['private_key'] = $key;
         }
 

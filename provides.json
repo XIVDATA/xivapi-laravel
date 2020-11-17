@@ -1,10 +1,10 @@
 {
     "providers": [
-      "XIVDATA\\XIVAPI\\XIVAPI"
+      "XIVAPI\\XIVAPI"
     ],
     "aliases": 
     [{
         "alias": "XIVAPI",
-        "facade": "XIVDATA\\XIVAPI\\XIVAPI"
+        "facade": "XIVAPI\\XIVAPI"
     }]
 }
