@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Characters"
+permalink: /characters
+---
+
 # Characters
 
 ```php

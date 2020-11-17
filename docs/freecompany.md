@@ -1,3 +1,9 @@
+---
+layout: page
+title: "FreeCompany"
+permalink: /freecompany
+---
+
 # FreeCompany
 
 ```php

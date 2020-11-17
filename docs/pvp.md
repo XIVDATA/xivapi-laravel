@@ -1,3 +1,9 @@
+---
+layout: page
+title: "PvP Teams"
+permalink: /pvp
+---
+
 # PVP Team
 
 ```php

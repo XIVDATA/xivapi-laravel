@@ -1,3 +1,9 @@
+---
+layout: page
+title: "XIVAPI"
+permalink: /xivapi
+---
+
 # Using Queries (excludes Search)
 
 The API has a whole host of queries to allow you to customise the response, these are all passed to the API before you request data. Search has some extra queries that are hard coded as these interact with Elastic Search.

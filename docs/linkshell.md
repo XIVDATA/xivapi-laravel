@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Linkshell"
+permalink: /linkshell
+---
+
 # Linkshell
 
 ```php

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Content"
+permalink: /content
+---
+
 # Content
 
 Content is dynamically driven based on what content is available in the game files using magic methods for invoking the different types, eg:

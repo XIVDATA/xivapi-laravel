@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Installation"
+permalink: /install
+---
+
 # Installation
 
 Create a new Laravel App:
