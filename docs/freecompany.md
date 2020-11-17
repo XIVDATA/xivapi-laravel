@@ -2,6 +2,7 @@
 layout: page
 title: "FreeCompany"
 permalink: /freecompany
+order: 7
 ---
 
 # FreeCompany

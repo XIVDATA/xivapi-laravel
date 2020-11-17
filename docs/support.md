@@ -1,3 +1,10 @@
+---
+layout: page
+Title: Support
+permalink: /support
+order: 11
+---
+
 # Support & Issues
 
 ## Support

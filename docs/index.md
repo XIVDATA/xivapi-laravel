@@ -1,3 +1,8 @@
+---
+Title: Home
+order: 1
+---
+
 # XIVAPI Laravel
 
 This is a package to easily use the Final Fantasy XIV API provided by XIVAPI in Laravel.  

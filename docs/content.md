@@ -2,6 +2,7 @@
 layout: page
 title: "Content"
 permalink: /content
+order: 5
 ---
 
 # Content

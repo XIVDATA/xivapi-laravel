@@ -2,6 +2,7 @@
 layout: page
 title: "Installation"
 permalink: /install
+order: 2
 ---
 
 # Installation

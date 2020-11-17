@@ -2,6 +2,7 @@
 layout: page
 title: "Search"
 permalink: /search
+order: 4
 ---
 
 # Search
