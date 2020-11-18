@@ -1,8 +1,5 @@
 ---
-layout: page
 title: "XIVAPI"
-permalink: /xivapi
-order: 10
 ---
 
 # Using Queries (excludes Search)

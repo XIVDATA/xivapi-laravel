@@ -1,0 +1,10 @@
+nav:
+
+  - title: Home
+    url: index.html
+
+  - title: Installation
+    url: install.html
+  
+  - title: Releases
+    url: releases.html

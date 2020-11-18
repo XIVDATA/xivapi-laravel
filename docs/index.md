@@ -1,6 +1,5 @@
 ---
-Title: Home
-order: 1
+title: Home
 ---
 
 # XIVAPI Laravel

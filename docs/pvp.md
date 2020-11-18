@@ -1,8 +1,5 @@
 ---
-layout: page
 title: "PvP Teams"
-permalink: /pvp
-order: 9
 ---
 
 # PVP Team

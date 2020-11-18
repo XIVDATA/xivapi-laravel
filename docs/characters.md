@@ -1,8 +1,5 @@
 ---
-layout: page
 title: "Characters"
-permalink: /characters
-order: 6
 ---
 
 # Characters

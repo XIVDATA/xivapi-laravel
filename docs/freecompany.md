@@ -1,8 +1,5 @@
 ---
-layout: page
-title: "FreeCompany"
-permalink: /freecompany
-order: 7
+title: "Free Company"
 ---
 
 # FreeCompany
