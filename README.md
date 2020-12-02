@@ -1,6 +1,9 @@
 # XIVAPI Laravel Client
 
-This provides a very simple client to interact with the XIVAPI and obtain dynamic objects in return.
+This provides a very simple client to interact with the XIVAPI and obtain dynamic objects in return.  
+  
+![Packagist Downloads](https://img.shields.io/packagist/dt/xivdata/xivapi-laravel)
+![Build](https://github.com/XIVDATA/xivapi-laravel/workflows/Build/badge.svg?branch=master)
 
 ## Getting Started
 
